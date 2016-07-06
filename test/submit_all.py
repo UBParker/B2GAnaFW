@@ -43,7 +43,7 @@ def getOptions() :
     parser.add_option("-f", "--datasets", dest="datasets",
         help=("File listing datasets to run over"),
         metavar="FILE")
-    parser.add_option("-v", "--version", dest="version", default="B2GAnaFW_80X_V1p2",
+    parser.add_option("-v", "--version", dest="version", default="B2GAnaFW_80X_V2p0",
         help=("B2GAnaFW version"),
         metavar="VERSION")
     parser.add_option("-s", "--storageSite", dest="storageSite", #default="T3_US_FNALLPC",
