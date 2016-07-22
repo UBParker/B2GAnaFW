@@ -51,7 +51,7 @@ To run, prepare a text file CRAB/tosubmit.txt with dataset names of samples to s
 Example usage: 
 
 ```
-python submit_all.py -c b2gedmntuples_cfg.py -f <your_dataset_file> -s "T3_US_FNALLPC" -p "DataProcessing=MC_MiniAODv2_80X" -d B2GEDMNTuples_80x_V1p0 -o "/store/group/lpctlbsm/B2GAnaFW_80X_V1p0" -v RunIISpring16MiniAODv2_B2GAnaFW_80x_V1p0 -i 'Summer15_25nsV7*'
+python submit_all.py -c b2gedmntuples_cfg.py -f <your_dataset_file> -s "T3_US_FNALLPC" -p "DataProcessing=MC_MiniAODv2_80X" -d B2GEDMNTuples_80x_V2p0 -o "/store/group/lpctlbsm/B2GAnaFW_80X_V2p0" -v RunIISpring16MiniAODv2_B2GAnaFW_80x_V2p0 -i 'Summer15_25nsV7*'
 ```
 
 See all options with ```python submit_all.py --help```
